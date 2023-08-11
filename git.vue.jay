@@ -1,5 +1,0 @@
-git add src/*
-git add public/*
-git commit -m "`date +%d/%m/%Y`"
-git push
-
