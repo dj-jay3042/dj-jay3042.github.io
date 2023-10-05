@@ -1,6 +1,6 @@
 // Listen for clicks on links
 document.addEventListener('click', function (e) {
-    if (e.target.tagName === 'A') {
+    if (e.target.tagName === 'A' && e.target.className == "nav-link") {
         e.preventDefault();
         const href = e.target.getAttribute('href');
         history.pushState(null, '', href);
